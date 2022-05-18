@@ -1,4 +1,4 @@
-package 对象数组_不好用;
+package 对象数组;
 //一般用ArrayList.练习.T_2中的ArrayList集合，因为ArrayList集合长度可变，数组一旦定义长度不可变。
 
 /*

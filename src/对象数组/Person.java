@@ -1,4 +1,4 @@
-package 对象数组_不好用;
+package 对象数组;
 
 public class Person {
 
