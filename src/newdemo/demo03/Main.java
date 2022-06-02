@@ -50,10 +50,10 @@ public class Main {
         System.out.println("-----------通过用户查找信息-----------");
         for (int i = 0; i < members.length; i++) {// 遍历用户信息
             System.out.println(members[i].getInfo());
-            for (int x = 0;x<memA.getRole().length;x++){
-                System.out.println("\t|-"+memA.getRole()[x].getInfo());
-                for (int j = 0; j < memA.getRole()[x].getPrivilege().length; j++) {
-                    System.out.println("\t\t|-"+memA.getRole()[x].getPrivilege()[j].getInfo());
+            for (int x = 0;x<members[i].getRole().length;x++){
+                System.out.println("\t|-"+members[i].getRole()[x].getInfo());
+                for (int j = 0; j < members[i].getRole()[x].getPrivilege().length; j++) {
+                    System.out.println("\t\t|-"+members[i].getRole()[x].getPrivilege()[j].getInfo());
                 }
             }
         }

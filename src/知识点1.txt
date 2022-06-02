@@ -47,3 +47,21 @@ No      区别            抽象类                                             
                                       3、通过子类的向上转型实现抽象类或接口对象实例化
 
 当抽象类和接口都可以使用的情况下优先要考虑接口，因为接口可以避免子类的单继承，因为接口可以避免子类的单继承局限
+
+
+Enum类中定义的方法
+protected Enum(String name,int ordinal)         构造          传入名字和序号
+public final String name()                      普通          获得对象名字
+public final int ordinal()                      普通          获得对象序号
+
+
+异常
+try{
+    // 可能出现异常的语句
+} [catch (异常类型 异常对象) {
+    // 异常处理
+} catch (异常类型 异常对象) {
+     // 异常处理
+} ... ] [finally{
+    不管异常是否处理都要执行 ;
+}]
