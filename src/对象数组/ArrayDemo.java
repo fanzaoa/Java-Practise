@@ -27,5 +27,6 @@ public class ArrayDemo {
         System.out.println(array[2]);//地址值
 
         System.out.println(one.getName());
+        System.out.println(array[0].getAge());
     }
 }
