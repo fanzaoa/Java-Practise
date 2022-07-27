@@ -46,3 +46,8 @@
     RuntimeException是Exception的子类
     RuntimeException标注的异常可以不需要进行强制性处理，而Exception异常必须强制性处理
     常见的RuntimeException异常：NumberFormatException、ClassCastException、NullPointerException
+
+9、请解释 Runnable 与  Callable 的区别?
+    1.Runnable 是在 JDK1.0的时候提出的多线程的实现接口，而 Callable 是在 JDK 1.5之后提出的；
+    2.java.lang.Runnable 接口之中只提供有一个 run()方法，并且没有返回值;
+    3.java.util.concurrent.Callable 接口提供有 call()方法，可以有返回值;
